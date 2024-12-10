@@ -1,0 +1,694 @@
+* {
+  /* background-color: aliceblue; */
+  box-sizing: border-box;
+}
+
+/* .lich {
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  font-size: 30px;
+  border: 2px solid #999;
+} */
+
+.header {
+  display: flex;
+  margin-top: 35px;
+  margin-right: 135px;
+  margin-left: 135px;
+  background-color: antiquewhite;
+  border-radius: 100px;
+  width: 1170px;
+  height: 50px;
+  align-items: center;
+}
+#first {
+  margin-left: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: black;
+  font-size: 17px;
+}
+a:last-of-type {
+  background-color: yellow;
+  color: navy;
+  font-size: 23px;
+  border-radius: 99px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+span {
+  margin-left: 600px;
+}
+/* /* span:hover {
+  background-image: linear-gradient(orange, gray); }*/
+.join {
+  width: 180px;
+  height: 64px;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius: 99px;
+  background-image: linear-gradient(orange, gray);
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.pic1 {
+  margin-top: 64px;
+  margin-left: 135px;
+  width: 570px;
+  height: 685px;
+  border-radius: 99px;
+}
+.preview {
+  display: flex;
+  font-size: 30px;
+}
+
+.box2 {
+  margin-left: auto;
+  justify-content: center;
+  align-self: center;
+  margin-left: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+strong {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  width: 470px;
+  height: 558px;
+  /* margin-top: 214px;
+  margin-left: 835px; */
+  margin-top: 133px;
+}
+/* button {
+  background-color: #f3f70a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 99px;} */
+
+.box5 {
+  background-color: yellow;
+  height: 48px;
+  width: 245px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 0;
+  border-radius: 99px;
+  margin-left: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.one {
+  position: relative;
+  top: 12px;
+  left: -20px;
+}
+/* ---PART2--------------------------------  */
+.about-car {
+  display: flex;
+}
+.part2 {
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 135px;
+}
+.popular {
+  width: 1170px;
+  height: 645px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.button {
+  display: flex;
+  justify-content: end;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 0;
+  border: 0; */
+}
+/* img {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  padding: 0; */
+
+.content-p2 {
+  margin-left: 135px;
+  margin-top: 90px;
+  margin-bottom: 15px;
+}
+button.controls-btn {
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 99px;
+}
+/* ------------------------------------ */
+.car1 {
+  display: block;
+  margin-left: 135px;
+  width: 295px;
+  height: 410px;
+  border: 1px solid cyan;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.intro-lv1 {
+  margin-top: 15px;
+}
+.pic-car1 {
+  --width: 370px;
+  --height: 278px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border: 1px solid cyan;
+}
+.Evaluate {
+  font-size: 21px;
+  /* display: flex; */
+}
+.order {
+  display: flex;
+  justify-content: space-between;
+}
+.price-lv1 {
+  font-size: 30px;
+}
+.star {
+  /* color: white;
+  background-color: yellow; */
+  color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#order-lv1 {
+  background-image: linear-gradient(orange, gray);
+  font-size: 14px;
+  width: 92px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 99px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* -----------------------------------------pic2 */
+.car2 {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.picture {
+  width: 290px;
+  height: 174px;
+  margin-bottom: 15px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.pic-car2 {
+  width: 293px;
+  height: 410px;
+  margin-left: 50px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border: 1px solid cyan;
+}
+.intro2 {
+  font-size: 21px;
+}
+.price2 {
+  font-size: 30px;
+}
+.star2 {
+  font-size: 21px;
+  color: yellow;
+  width: 70px;
+}
+
+.star {
+  /* color: white;
+    background-color: yellow; */
+  color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order2 {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;
+  justify-content: center; */
+}
+.order-lv2 {
+  font-size: 14px;
+  background-image: linear-gradient(orange, gray);
+  margin-left: 40px;
+  width: 92px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 99px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* ---------------------------------------------pic---- */
+.picture-lv3 {
+  height: 174px;
+  width: 290px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.picture3 {
+  width: 293px;
+  height: 410px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border: 1px solid cyan;
+  margin-left: 50px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.price3 {
+  font-size: 30px;
+}
+.order3 {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;
+  justify-content: center; */
+}
+.star3 {
+  color: yellow;
+  font-size: 21px;
+}
+
+.order-lv3 {
+  font-size: 14px;
+  background-image: linear-gradient(orange, gray);
+  margin-left: 40px;
+  width: 92px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 99px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#word {
+  font-size: 21px;
+}
+/* ------------------------------ phần comments-------------------------------------- */
+.comment {
+  background-color: rgba(46, 33, 0, 1);
+  width: 1440px;
+  height: 380px;
+  display: block;
+  margin-bottom: 150px;
+}
+.Author-Comments {
+  width: 72px;
+  height: 72px;
+  border-radius: 99px;
+  /* justify-content: center; */
+  /* position: relative;
+  right: 30px; */
+}
+.position {
+  position: relative;
+  top: 145px;
+  left: 135px;
+  width: 159px;
+  height: 188px;
+}
+.name {
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 17px;
+  margin: 18px 0px 18px 0px;
+  width: 180px;
+}
+.job {
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 14px;
+}
+.preface {
+  margin-left: 565px;
+  margin-right: 135px;
+  /* margin-bottom: 30px ; */
+  font-size: 31px;
+  color: beige;
+}
+.stay {
+  position: relative;
+  top: -65px;
+}
+
+/* -------phần cái cá nhân tiêu biểu có thành tích xuất sắc để lại các đánh giá qua các quá trình sử dụng ------------ */
+.bonus {
+  width: 1170px;
+  height: 438px;
+  /* margin-top: 2525px; */
+  margin-left: 135px;
+  background-color: azure;
+  display: flex;
+  border-radius: 12px;
+  margin-bottom: 130px;
+}
+.pic-lv4 {
+  width: 270px;
+  height: 404px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  margin-top: 0px;
+  margin-right: 25px;
+}
+.pic-lv5 {
+  width: 270px;
+  height: 405px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  /* margin-top: 33px; */
+  /* display: flex; */
+  /* align-items: flex-end; */
+  position: relative;
+  top: 33px;
+}
+.tour {
+  display: block;
+}
+.bonus2 {
+  display: block;
+  width: 470px;
+  height: 322px;
+  margin-left: 75px;
+  position: relative;
+  top: 173px;
+  border-radius: 26px;
+}
+.tour1 {
+  font-size: 38px;
+}
+.price4 {
+  margin-top: 10px;
+  width: 173px;
+  height: 50px;
+  border-radius: 75px;
+  background-image: linear-gradient(orange, gray);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+  position: relative;
+  left: 110px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ------------------------------------------------------------- */
+.engineer {
+  display: flex;
+  background-color: azure;
+  width: 1170px;
+  height: 440px;
+  margin-top: 130px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 130px;
+}
+.say {
+  position: relative;
+  top: 145px;
+  left: 65px;
+}
+.say1 {
+  font-size: 38px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.say2 {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.say3 {
+  margin-top: 25px;
+  width: 173px;
+  height: 50px;
+  border-radius: 75px;
+  background-image: linear-gradient(orange, gray);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.pic-engineer-lv1 {
+  width: 470px;
+  height: 440px;
+  margin-left: 130px;
+  border-radius: 20px;
+}
+/* -------------------question---------------------- */
+.our-block {
+  display: block;
+}
+.main-all {
+  width: 448px;
+  height: 120px;
+  text-align: center;
+  margin-left: 496px;
+}
+.main1 {
+  font-size: 38px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main2 {
+  /* text-align: center; */
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.main-img {
+  display: flex;
+  justify-content: space-around;
+}
+/* --------------------------------------------------------- */
+.question1 {
+  background-color: azure;
+  width: 370px;
+  height: 467px;
+  border-radius: 20px;
+}
+.q1-lv1 {
+  width: 370px;
+  height: 250px;
+  border-radius: 20px;
+}
+.point {
+  width: 160px;
+  height: 1px;
+  border: 1px solid black;
+}
+.date {
+  display: flex;
+  width: 133px;
+  height: 26px;
+  margin-top: 20px;
+}
+.point-lv1 {
+  width: 10px;
+  height: 10px;
+}
+.q1-lv2 {
+  margin-top: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.q1-lv3 {
+  font-size: 21px;
+  width: 173px;
+  height: 50px;
+  border-radius: 75px;
+  background-image: linear-gradient(orange, gray);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; */
+}
+/* ---------------------------------------------- */
+.question2 {
+  background-color: azure;
+  width: 370px;
+  height: 467px;
+  border-radius: 20px;
+  /* display: block; */
+}
+.q2-lv2 {
+  width: 370px;
+  height: 250px;
+  border-radius: 20px;
+}
+.date2 {
+  display: flex;
+  width: 133px;
+  height: 26px;
+  margin-top: 20px;
+}
+.point2 {
+  width: 160px;
+  height: 1px;
+  border: 1px solid black;
+}
+.point-lv2 {
+  width: 10px;
+  height: 10px;
+}
+.q2-lv3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.q2-lv4 {
+  font-size: 21px;
+  width: 173px;
+  height: 50px;
+  border-radius: 75px;
+  background-image: linear-gradient(orange, gray);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+/* ---------------------------------------------------- */
+.question3 {
+  background-color: azure;
+  width: 370px;
+  height: 467px;
+  border-radius: 20px;
+}
+.q3-lv1 {
+  width: 370px;
+  height: 250px;
+  border-radius: 20px;
+}
+.date3 {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.point-lv3 {
+  width: 10px;
+  height: 10px;
+}
+.q3-lv2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.q3-lv3 {
+  font-size: 21px;
+  width: 173px;
+  height: 50px;
+  border-radius: 75px;
+  background-image: linear-gradient(orange, gray);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+/* --------------------lời kết cuối cùng của web-----------------------------the end-------- */
+.the-end {
+  background-color: rgba(46, 33, 0, 1);
+  width: 1440px;
+  height: 428px;
+  margin-top: 130px;
+  display: flex;
+  /* top: 4681px;
+gap: 0px;
+opacity: 0px; */
+}
+.logo-end {
+  color: aliceblue;
+  width: 267px;
+  height: 163px;
+  margin-top: 130px;
+  margin-left: 135px;
+  /* position: relative;
+  top: 170px; */
+}
+.name1 {
+  margin: 15px;
+  color: aliceblue;
+}
+.question-for-dev {
+  color: rgba(191, 188, 178, 1);
+  margin-bottom: 9px;
+}
+.icon {
+  justify-content: space-between;
+}
+/* ------------------- */
+.support {
+  color: aliceblue;
+  color: aliceblue;
+  width: 267px;
+  height: 163px;
+  margin-top: 130px;
+  margin-left: 135px;
+}
+/* .non-support {
+  width: 160px;
+  height: 1px;
+  color: aliceblue;
+} */
+.support1 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.support2 {
+  margin-bottom: 10px;
+}
+.support3 {
+  margin-bottom: 10px;
+}
+.support4 {
+  margin-bottom: 10px;
+}
+/* -------------------- */
+.address {
+  color: aliceblue;
+  width: 267px;
+  height: 163px;
+  margin-top: 130px;
+  margin-left: 135px;
+  color: aliceblue;
+}
+.address1 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.address2 {
+  margin-bottom: 15px;
+}
+.address3 {
+  margin-bottom: 15px;
+}
+.address4 {
+  margin-bottom: 15px;
+}
